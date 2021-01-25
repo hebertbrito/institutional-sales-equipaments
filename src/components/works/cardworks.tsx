@@ -13,11 +13,13 @@ export const CardWorks = react.memo((props: cardWorks) => {
     return (
         <div className="container-card-works">
             <div className="sub-container-works">
-                <img src={image} alt="deliveryimage" className="image-delivery"/>
+                <img src={image} alt="deliveryimage" className="image-delivery" />
             </div>
             <h2>{title}</h2>
             <p>{text}</p>
-            <img src={doublecheck} alt="deliveryimage" className="image-check"/>
+            <div className="div-works-check">
+                <img src={doublecheck} alt="deliveryimage" className="image-check" />
+            </div>
         </div>
     )
 })

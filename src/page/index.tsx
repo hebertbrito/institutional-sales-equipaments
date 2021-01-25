@@ -1,5 +1,5 @@
 import react from 'react';
-import { Header, HeroHeader, Brands, Works } from '../components'
+import { Header, HeroHeader, Brands, Works, Enterprise } from '../components'
 export const Main = react.memo(() => {
     return (
         <div style={{width: "100%", display: "flex", flexDirection: "column"}}>
@@ -7,6 +7,7 @@ export const Main = react.memo(() => {
             <HeroHeader />
             <Brands />
             <Works />
+            <Enterprise />
         </div>
     )
 })
