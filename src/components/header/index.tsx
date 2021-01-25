@@ -1,11 +1,13 @@
 import react from 'react';
 import './styles.css'
 import logo from '../../assets/traffic-cone.png'
+import heroimage from '../../assets/hero-header-teste.jpg'
+
 export const Header = react.memo(() => {
     return (
         <div className="container-header">
             <div className="sub-header-left">
-                <img src={logo} alt="logo-site" className="image-logo" />
+                <img src={logo} alt="logosite" className="image-logo" />
                 <h1>RM EQUIPAMENTOS</h1>
             </div>
             <div className="sub-header-right">
@@ -28,6 +30,15 @@ export const Header = react.memo(() => {
                     </div>
                 </div>
             </div>
+        </div>
+    )
+})
+
+export const HeroHeader = react.memo(() => {
+    return (
+        <div className="container-hero-image">
+            <img src={heroimage} alt="heroimage" className="image-header" />
+            <h1 className="text-hero-header">O UNIVERSO DE SOLUÇÕES PARA EQUIPAMENTOS DE SEGURANÇA</h1>
         </div>
     )
 })

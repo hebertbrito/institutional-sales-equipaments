@@ -91,3 +91,29 @@ li{
     flex-direction: column;
     opacity: 1;
 }
+.container-hero-image{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: static;
+    font-family: 'Roboto', sans-serif;
+}
+.text-hero-header{
+    position: absolute;
+    z-index: 2;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fafafa;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5vw;
+    justify-content: center;
+    text-align: center;
+}
+.image-header{
+    width: 100%;
+}
