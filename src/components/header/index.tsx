@@ -1,7 +1,7 @@
 import react from 'react';
 import './styles.css'
 import logo from '../../assets/traffic-cone.png'
-import heroimage from '../../assets/hero-header-teste.jpg'
+import heroimage from '../../assets/hero-image1.jpg'
 
 export const Header = react.memo(() => {
     return (
