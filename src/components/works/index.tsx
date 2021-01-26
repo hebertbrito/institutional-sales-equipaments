@@ -12,12 +12,12 @@ export const Works = react.memo(() => {
         {
             image: delivery,
             title: "Entrega",
-            text: "Entregamos produtos com rapidez e segurança para qualquer lugar do Brasil, respeitando os limites de entrega prés estabelecidos na hora da compra"
+            text: "Entregamos produtos com rapidez e segurança para qualquer lugar do Brasil, respeitando os limites de entrega pré estabelecidos na hora da compra."
         },
         {
             image: qualidade,
             title: "Qualidade",
-            text: "Buscamos sempre os melhores produtos e fornecedores, para que o cheguem até você com altissima qualidade e resistencia."
+            text: "Buscamos sempre os melhores produtos e fornecedores, para que o cheguem até você com altissima qualidade e resistência."
         }
     ]
 
