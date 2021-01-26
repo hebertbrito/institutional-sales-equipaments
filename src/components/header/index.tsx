@@ -1,9 +1,11 @@
-import react from 'react';
+import react, { useEffect } from 'react';
 import './styles.css'
 import logo from '../../assets/traffic-cone.png'
 import heroimage from '../../assets/hero-image1.jpg'
 
 export const Header = react.memo(() => {
+
+
     return (
         <div className="container-header">
             <div className="sub-header-left">

@@ -10,7 +10,7 @@ export const Contact = react.memo(() => {
             <div className="sub-container-contact">
                 <div>
                     <h3>ENDEREÇO</h3>
-                    <p>Rua Paulo MazettO, 344, 13142-150 - Paulínia - SP</p>
+                    <p>Rua Paulo Mazetto, 344, 13142-150 - Bom Retiro/Paulínia - SP</p>
                     <p>Email: hebertfelipe.97@outlook.com.br</p>
                     <p>Telefone: +5519971364515</p>
                 </div>
