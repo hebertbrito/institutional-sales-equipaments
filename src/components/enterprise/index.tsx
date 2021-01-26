@@ -11,9 +11,9 @@ export const Enterprise = react.memo(() => {
                 <div className="div-content-enterprise">
                     <p style={{fontWeight: "bold"}}>Somos uma empresa especializada no comércio e pequenas montagem.  </p>
                     <p>Em atividade desde 1993, somos liderados por Meire Matos, empresária Nordestina com mais de 30 anos de experiência profissional neste setor.  </p>
-                    <p>Temos no nosso comercio diversas marcas de referência, oferendo uma vasta gama de equipamentos de segurança e proteção.  </p>
+                    <p>Temos no nosso comércio diversas marcas de referência, oferecendo uma vasta gama de equipamentos de segurança e proteção.  </p>
                     <p>Nossa missão é satisfazer as necessidades dos nossos clientes numa longa parceria.  </p>
-                    <p>Oferecemos produtos para todos os tipos de locais, desde banheiros e cozinhas á comercios e empresa de construções.  </p>
+                    <p>Comercializamos produtos para todos os tipos de locais, desde banheiros e cozinhas á comercios e empresa de construções.  </p>
                 </div>
             </div>
         </div>
